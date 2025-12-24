@@ -50,3 +50,6 @@ class LeaveListPage(BasePage):
 
     def get_result_count(self):
         return len(self.driver.find_elements(*self.TABLE_ROWS))
+        
+        
+        
