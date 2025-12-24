@@ -7,3 +7,8 @@ def test_logout(login_page, dashboard_page):
 def test_add(a, b):
     return a + b
 print(test_add(10,20))
+
+
+def test_sub(a,b):
+    return  a - b
+print(test_sub(30,10))
